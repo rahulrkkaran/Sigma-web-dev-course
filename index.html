@@ -3,9 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify WebPlayer- Music for everyone!</title>
+
 </head>
+
 <body>
-  happy birthday 
+    <div class="container flex bg-black">
+
+    <div class="left">
+    <div class="home bg-grey rounded m-1 p-1">
+        <div class="logo"><img width="100" class="invert" src="logo.svg" alt=""></div>
+        <ul> 
+            <li><img  class="invert" src="home.svg" alt="home">Home</li>
+            <li><img class="invert" src="search.svg" alt="search">Search</li>
+        </ul>
+    </div>
+
+    <div class="library bg-grey rounded m-1 p-1" >
+       <div class="heading">
+<img  class="invert" src="playlist.svg" alt="">
+           <h2>
+               Your library
+            </h2>
+        
+        </div>
+        <div class="songList">
+            <ul>
+                  
+            </ul>
+</div>
+  
+
+<div class="footer">
+    <div class="rqGyIqd3Igk05BEB2ZC6" data-testid="left-sidebar-legal-links"><div class="BottomLinksList__Container-sc-7kfetx-0 ePBvIH"><div class="Link__Container-sc-c30omp-1 hzoAVA"><a href="https://www.spotify.com/in-en/legal/" class="Link-sc-k8gsk-0 fXzptn e-9541-text-link e-9541-text-link--standalone Link__BottomLink-sc-c30omp-0 kmeDa" id="" data-encore-id="textLink"><span data-encore-id="type" class="Type__TypeElement-sc-goli3j-0 gBYjgG">Legal</span></a></div><div class="Link__Container-sc-c30omp-1 hzoAVA"><a href="https://www.spotify.com/in-en/safetyandprivacy/" class="Link-sc-k8gsk-0 fXzptn e-9541-text-link e-9541-text-link--standalone Link__BottomLink-sc-c30omp-0 kmeDa" id="" data-encore-id="textLink"><span data-encore-id="type" class="Type__TypeElement-sc-goli3j-0 gBYjgG">Safety &amp; Privacy Center</span></a></div><div class="Link__Container-sc-c30omp-1 hzoAVA"><a href="https://www.spotify.com/in-en/legal/privacy-policy/" class="Link-sc-k8gsk-0 fXzptn e-9541-text-link e-9541-text-link--standalone Link__BottomLink-sc-c30omp-0 kmeDa" id="" data-encore-id="textLink"><span data-encore-id="type" class="Type__TypeElement-sc-goli3j-0 gBYjgG">Privacy Policy</span></a></div><div class="Link__Container-sc-c30omp-1 hzoAVA"><a href="https://www.spotify.com/in-en/legal/cookies-policy/" class="Link-sc-k8gsk-0 fXzptn e-9541-text-link e-9541-text-link--standalone Link__BottomLink-sc-c30omp-0 kmeDa" id="" data-encore-id="textLink"><span data-encore-id="type" class="Type__TypeElement-sc-goli3j-0 gBYjgG">Cookies</span></a></div><div class="Link__Container-sc-c30omp-1 hzoAVA"><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" class="Link-sc-k8gsk-0 fXzptn e-9541-text-link e-9541-text-link--standalone Link__BottomLink-sc-c30omp-0 kmeDa" id="" data-encore-id="textLink"><span data-encore-id="type" class="Type__TypeElement-sc-goli3j-0 gBYjgG">About Ads</span></a></div><div class="Link__Container-sc-c30omp-1 hzoAVA"><a href="https://www.spotify.com/in-en/accessibility/" class="Link-sc-k8gsk-0 fXzptn e-9541-text-link e-9541-text-link--standalone Link__BottomLink-sc-c30omp-0 kmeDa" id="" data-encore-id="textLink"><span data-encore-id="type" class="Type__TypeElement-sc-goli3j-0 gBYjgG">Accessibility</span></a></div></div><a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener" class="WycFx_Gl2tUXbUJpZiD8"><span class="e-9541-text encore-text-marginal" data-encore-id="text">Cookies</span></a></div>
+    
+</div>    
+</div>
+</div>  
+    <div class="right bg-grey rounded">
+    <div class="header">
+        <div class="nav">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
+        <div class="buttons">
+            <button class="signupbtn">Sign up</button>
+            <button class="loginbtn">Log in</button>
+        </div>  
+    </div>  
+    <div class="spotifyPlaylists">  
+        <h1>Spotify-Playlists</h1>
+        <div class="cardContainer">
+            <div class="card">
+                <div class="play">
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+                            <!-- Circle with green fill -->
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <!-- Play icon with white fill -->
+                            <path d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z" fill="white" />
+                        </svg>
+                 </div>
+                    <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+                    <h2>Happy Hits!</h2>
+                    <p>Hits to boost your mood and fill you with Happiness</p>              
+             </div>   
+             <div class="card">
+                <div class="play">
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+                            <!-- Circle with green fill -->
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <!-- Play icon with white fill -->
+                            <path d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z" fill="white" />
+                        </svg>
+                 </div>
+                    <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+                    <h2>Happy Hits!</h2>
+                    <p>Hits to boost your mood and fill you with Happiness</p>              
+             </div>     
+             <div class="card">
+                <div class="play">
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+                            <!-- Circle with green fill -->
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <!-- Play icon with white fill -->
+                            <path d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z" fill="white" />
+                        </svg>
+                 </div>
+                    <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+                    <h2>Happy Hits!</h2>
+                    <p>Hits to boost your mood and fill you with Happiness</p>              
+             </div>   
+             <div class="card">
+                <div class="play">
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+                            <!-- Circle with green fill -->
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <!-- Play icon with white fill -->
+                            <path d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z" fill="white" />
+                        </svg>
+                 </div>
+                    <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+                    <h2>Happy Hits!</h2>
+                    <p>Hits to boost your mood and fill you with Happiness</p>              
+             </div>   
+             <div class="card">
+                <div class="play">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+                        <!-- Circle with green fill -->
+                        <circle cx="12" cy="12" r="10" fill="green" />
+                        <!-- Play icon with white fill -->
+                        <path d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z" fill="white" />
+                    </svg>
+                </div>
+                <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+                <h2>Happy Hits!</h2>
+               <p>Hits to boost your mood and fill you with Happiness</p>              
+             </div>   
+
+        </div>
+        <div class="playbar">
+            <div class="seekbar">
+                <div class="circle">
+                    
+                </div>
+            </div>
+            <div class="abovebar">
+
+           
+            <div class="songinfo"></div>
+            <div class="songbuttons">
+                <img src="prevsong.svg" alt="">
+                <img src="Play.svg" alt="">
+                <img src="nextsong.svg" alt="">
+            </div> 
+            <div class="songtime">
+                
+            </div>
+        </div> </div>
+
+    </div>
+</div>
+</div>
 </body>
 </html>
